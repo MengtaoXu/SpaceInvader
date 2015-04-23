@@ -1,11 +1,18 @@
 package com.example.apple.myfirstapp;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+<<<<<<< HEAD
 import android.view.View;
 import android.content.Intent;
+=======
+import android.content.Intent;
+import android.view.View;
+
+>>>>>>> 2791fbe437c7b8c155dd5d177c07810b160e4f09
 
 public class MainActivity extends ActionBarActivity {
 
@@ -37,11 +44,18 @@ public class MainActivity extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+<<<<<<< HEAD
     public void start(View view)
     {
         Intent intent = new Intent(this,GameActivity.class);
         startActivity(intent);
 
 
+=======
+
+    public void enterGame(View view){
+        Intent intent = new Intent(this,GameActivity.class);
+        startActivity(intent);
+>>>>>>> 2791fbe437c7b8c155dd5d177c07810b160e4f09
     }
 }
