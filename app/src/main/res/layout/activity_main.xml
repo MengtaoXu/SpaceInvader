@@ -11,6 +11,7 @@
        android:text="@string/button_start"
        android:layout_marginBottom="32dp"
        android:layout_alignParentBottom="true"
+       android:onClick="enterGame"
        android:id="@+id/button" />
     <Button
         android:layout_width="wrap_content"
