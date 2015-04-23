@@ -11,14 +11,10 @@
        android:text="@string/button_start"
        android:layout_marginBottom="32dp"
        android:layout_alignParentBottom="true"
-<<<<<<< HEAD
        android:id="@+id/button"
        android:textColor="#990099"
        android:onClick="start"/>
-=======
-       android:onClick="enterGame"
-       android:id="@+id/button" />
->>>>>>> 2791fbe437c7b8c155dd5d177c07810b160e4f09
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
